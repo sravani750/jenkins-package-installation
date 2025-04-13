@@ -2,7 +2,7 @@ echo "1. updating..."
 sudo apt update
 
 echo "2.installinf openjdk-21..."
-sudo apt install -y opendk-21jdk-jdk
+sudo apt install -y opendk-21-jdk
 
 echo "3. adding jenkins package to apt list"
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
